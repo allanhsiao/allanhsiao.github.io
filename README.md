@@ -8,7 +8,11 @@ Email: [ajhsiao@uchicago.edu](ajhsiao@uchicago.edu)
 
 ### Coordination and Commitment in International Climate Action: Evidence from Palm Oil
 
-Weak environmental regulation has global consequences. When domestic regulation fails, the international community can intervene by targeting emitters with import tariffs. I develop a dynamic empirical framework for evaluating import tariffs as a substitute for domestic regulation, and I apply it to the market for palm oil, a major driver of deforestation and one of the largest sources of emissions globally. Coordinated, committed tariffs reduce emissions by 39% relative to 40% under domestic regulation, but free-riding concerns undermine coordination and static incentives undermine commitment.
+<details>
+  <summary>Abstract</summary>
+  
+  Weak environmental regulation has global consequences. When domestic regulation fails, the international community can intervene by targeting emitters with import tariffs. I develop a dynamic empirical framework for evaluating import tariffs as a substitute for domestic regulation, and I apply it to the market for palm oil, a major driver of deforestation and one of the largest sources of emissions globally. Coordinated, committed tariffs reduce emissions by 39% relative to 40% under domestic regulation, but free-riding concerns undermine coordination and static incentives undermine commitment.
+</details>
 
 ### Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia
 
