@@ -6,10 +6,8 @@ Email: [ajhsiao@uchicago.edu](ajhsiao@uchicago.edu)
 
 ### Working papers
 
-Coordination and Commitment in International Climate Action: Evidence from Palm Oil
-
-Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia
-
+Coordination and Commitment in International Climate Action: Evidence from Palm Oil  
+Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia  
 Educational Investment in Spatial Equilibrium: Evidence from Indonesia
 
 ### Work in progress
