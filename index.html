@@ -7,7 +7,7 @@ function button(id) {
   var ids = ["abs1", "abs2"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
-    if (item != id) 
+    if (item != id) {
       document.getElementById(item).style.display = "none";
     } else {
       if (x.style.display === "none") {
@@ -40,7 +40,8 @@ function button(id) {
 <body>
   <div class="wrapper">
   <header>
-    <img src="files/Hsiao.jpg"/> <br>
+    <img src="files/Hsiao.jpg"/>
+    <p></p>
     <h1>Allan Hsiao</h1>
     <p><strong>Postdoctoral Fellow in Economics</strong>
     <br><strong>University of Chicago</strong>
@@ -55,12 +56,14 @@ function button(id) {
   <p>Coordination and Commitment in International Climate Action: Evidence from Palm Oil [<a href="files/Hsiao_palmoil.pdf">paper</a>]</p>
   <p>Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia [<a href="files/Hsiao_hospitals.pdf">paper</a>]</p>
   
-  <p>Educational Investment in Spatial Equilibrium: Evidence from Indonesia
-  <br>[<div class="buttonbar"><button class="button" onclick="button(&quot;abs1&quot;)">abstract</button> | <a href="files/Hsiao_schools.pdf">paper</a>]
+  <p>Educational Investment in Spatial Equilibrium: Evidence from Indonesia</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;abs1&quot;)">abstract</button> 
+    | <a href="files/Hsiao_schools.pdf">paper</a> 
+    ]</div>
   <div class="popup" id="abs1" style="display:none;">This paper quantifies the long-run aggregate and distributional effects of Indonesia’s Sekolah Dasar INPRES program, one of the largest school construction programs in history. I do so with a spatial equilibrium model in which graduates migrate and seek employment nationally. I find that the program increased aggregate output by 8% and regional inequality by 12%, as migration fuels output gains but drains rural regions. Mobility magnifies these effects and generates an equity-efficiency tradeoff.</div>
-  </p>
+  <p></p>
 
-  
   <h3>Work in progress</h3>
   <p>Rising Sea Levels, Adaptation, and Urban Development in Jakarta</p>
   </section>
