@@ -78,12 +78,12 @@ body{
   background-color:#fff;
   padding:50px;
   font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#494949;
+  color:#727272;
   font-weight:400
 }
 small{font-size:11px}
-p{margin:0 0 20px}
-a{color:#267CB9;text-decoration:none}
+p{color:#494949; margin:0 0 20px}
+a{color:#267CB9; text-decoration:none}
 
 @media print, screen and (max-width: 960px){
   div.wrapper{width:auto;margin:0}
