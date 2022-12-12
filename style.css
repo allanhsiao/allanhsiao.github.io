@@ -54,7 +54,7 @@ div.buttonbar{
 div.popup{
   margin-top:15px;
   margin-left:0px;
-  border-left:1px dotted #bbbbbb;
+  border-left:1px solid #bbbbbb;
   padding-left:15px;
 }
 .button{
