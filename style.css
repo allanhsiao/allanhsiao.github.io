@@ -52,9 +52,9 @@ div.buttonbar{
   color:#696969;
 }
 div.popup{
-  margin-top:10px;
+  margin-top:15px;
   margin-left:0px;
-  border-left:1px solid #696969;
+  border-left:1px dotted #bbbbbb;
   padding-left:15px;
 }
 .button{
