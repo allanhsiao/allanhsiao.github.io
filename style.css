@@ -47,53 +47,46 @@
   format("truetype"),url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans")
   format("svg")
 }
-  
-div.buttonbar{
-  color:#666;
-}
-div.popup{
-  margin-top:15px;
-  margin-left:0px;
-  border-left:1px solid #bbbbbb;
-  padding-left:15px;
-  color:#666;
-}
-.button{
-  background-color:#ffffff;
-  padding:0px;
-  font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#0a7fda;
-  font-weight:400;
-  cursor:pointer;
-  border:none;
-}
-.wrapper{width:860px;margin:0 auto}
 
+.light{color:#666}
+.dark{color:#000}
+.black,.blacklink{color:#222}
+a,.button{color:#0a7fda}
+
+.wrapper{width:860px;margin:0 auto}
 header{width:230px; float:left; position:fixed; -webkit-font-smoothing:subpixel-antialiased}
 section{width:540px; float:right; padding-bottom:50px}
 footer{width:230px; float:left; position:fixed; bottom:50px; -webkit-font-smoothing:subpixel-antialiased}
-img{max-width:100%}
-h1,h2,h3,h4,h5,h6{margin:0 0 20px}
-h1,h2,h3{line-height:1.1}
-h1{color:#000; font-size:28px}
-h2,h3,h4,h5,h6{color:#222}
-body{
+
+h1,h2,h3,p{margin:0 0 20px}
+h1{font-size:28px}
+body,.button{
   background-color:#fff;
-  padding:50px;
   font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#666;
-  font-weight:400
+  font-weight:400;
 }
+body{padding:50px}
+a,.blacklink{text-decoration:none}
+img{max-width:100%}
 small{font-size:11px}
-p{color:#222; margin:0 0 20px}
-a{color:#0a7fda; text-decoration:none}
-/* #267CB9 #188aff #0a7fda */
+
+.button{
+  padding:0px;
+  cursor:pointer;
+  border:none;
+}
+.popup{
+  margin-top:15px;
+  margin-left:0px;
+  border-left:1px solid #bbb;
+  padding-left:15px;
+}
 
 @media print, screen and (max-width:960px){
   div.wrapper{width:auto; margin:0}
   header,section,footer{float:none; position:static; width:auto}
   header{padding-right:320px}
-  section{border:1px solid #e5e5e5; border-width:1px 0; padding:20px 0; margin:0 0 20px}
+  section{border:1px solid #fff; border-width:1px 0; padding:20px 0; margin:0 0 20px}
   header a small{display:inline}
   header ul{position:absolute; right:50px; top:52px}
 }
