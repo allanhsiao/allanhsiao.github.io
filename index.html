@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["abs1", "abs2", "abs3", "abs4", "sum1"];
+  var ids = ["abs1", "abs2", "abs3", "abs4", "sum1", "sum2"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -131,6 +131,14 @@ function button(id) {
   <div class="popup" id="sum1" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
   <br>
   
+  <p style="margin-bottom:0">Data: Historical Urban Development in Jakarta</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum2&quot;)">summary</button> 
+    | <a href="/files/data_batavia.zip" target="_blank">data</a> 
+  ]</div>
+  <div class="popup" id="sum2" style="display:none">I digitize Dutch colonial maps of Jakarta to measure historical land development from 1887 to 1945.</div>
+  <br>
+   
   </section>
   </div>
   <script src="/assets/js/scale.fix.js"></script>
