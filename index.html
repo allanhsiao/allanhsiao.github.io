@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["abs1", "abs2", "abs3", "abs4", "sum1", "sum2"];
+  var ids = ["abs1", "abs2", "abs3", "abs4", "sum1", "sum2", "sum3"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -123,20 +123,28 @@ function button(id) {
 
   <h3>Resources</h3>
    
-  <p style="margin-bottom:0">Survey: Tropical Deforestation (with Robin Burgess)</p>
+  <p style="margin-bottom:0">Survey: Sea Level Rise (with Clare Balboni)</p>
   <div class="buttonbar">[ 
     <button class="button" onclick="button(&quot;sum1&quot;)">summary</button> 
+    | <a href="/files/slides_sea.pdf" target="_blank">slides</a> 
+  ]</div>
+  <div class="popup" id="sum1" style="display:none">Sea level rise threatens one billion people by 2050. We survey the literature on coastal damages, adaptation, and policy.</div>
+  <br>
+   
+  <p style="margin-bottom:0">Survey: Tropical Deforestation (with Robin Burgess)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum2&quot;)">summary</button> 
     | <a href="/files/slides_deforest.pdf" target="_blank">slides</a> 
   ]</div>
-  <div class="popup" id="sum1" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
+  <div class="popup" id="sum2" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
   <br>
   
   <p style="margin-bottom:0">Data: Historical Urban Development in Jakarta (1887-1945)</p>
   <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;sum2&quot;)">summary</button> 
+    <button class="button" onclick="button(&quot;sum3&quot;)">summary</button> 
     | <a href="/files/data_batavia.zip" target="_blank">data</a> 
   ]</div>
-  <div class="popup" id="sum2" style="display:none">I digitize Dutch colonial maps of Jakarta to measure the evolution of built-up land from 1887 to 1945.</div>
+  <div class="popup" id="sum3" style="display:none">I digitize Dutch colonial maps of Jakarta to measure the evolution of built-up land from 1887 to 1945.</div>
   <br>
    
   </section>
