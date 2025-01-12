@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs8", "sum1", "sum2", "sum3"];
+  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs8", "sum1", "sum2", "sum3", "sum4"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -166,7 +166,27 @@ function button(id) {
   ]</div> 
   <div class="popup" id="abs6" style="display:none">Sea level rise threatens coastal cities around the world. Will it exacerbate inequality in these already unequal places? The rich may adapt by moving to higher ground, bidding up prices and pushing the poor elsewhere. I study the distributional consequences of this spatial sorting with a simple quantitative model and granular data from Jakarta, a flood-prone megacity of 32 million. I find that sea level rise will double inequality in flood exposure.</div>
   <br>
-     
+
+  <h3>Data</h3>
+
+  <p style="margin-bottom:0">SUDS: Sea level rise and Urban infrastructure Data Set</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum4&quot;)">summary</button> 
+    | <a href="/files/suds/data.zip" target="_blank">data</a> 
+    | <a href="/files/suds/code.zip" target="_blank">code</a>
+    | <a href="/files/suds/readme.pdf" target="_blank">readme</a>
+  ]</div>
+  <div class="popup" id="sum4" style="display:none">I measure the exposure of urban infrastructure to sea level rise of up to 5 meters. These data have global coverage and include 11,422 urban clusters with a total population of roughly 3.7 billion.</div>
+  <br>
+  
+  <p style="margin-bottom:0">Historical Urban Development in Jakarta (1887-1945)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum3&quot;)">summary</button> 
+    | <a href="/files/data_batavia.zip" target="_blank">data</a> 
+  ]</div>
+  <div class="popup" id="sum3" style="display:none">I digitize Dutch colonial maps of Jakarta to measure the evolution of built-up land from 1887 to 1945.</div>
+  <br>
+   
   <h3>Surveys</h3>
    
   <p style="margin-bottom:0">Sea Level Rise (with Clare Balboni)</p>
@@ -184,16 +204,6 @@ function button(id) {
     | <a href="/files/slides_forest.pdf" target="_blank">slides</a> 
   ]</div>
   <div class="popup" id="sum2" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
-  <br>
-
-  <h3>Data</h3>
-   
-  <p style="margin-bottom:0">Historical Urban Development in Jakarta (1887-1945)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;sum3&quot;)">summary</button> 
-    | <a href="/files/data_batavia.zip" target="_blank">data</a> 
-  ]</div>
-  <div class="popup" id="sum3" style="display:none">I digitize Dutch colonial maps of Jakarta to measure the evolution of built-up land from 1887 to 1945.</div>
   <br>
    
   </section>
