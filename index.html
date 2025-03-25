@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4"];
+  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -223,6 +223,15 @@ function button(id) {
     | <a href="/files/slides_forest.pdf" target="_blank">slides</a> 
   ]</div>
   <div class="popup" id="sum2" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
+  <br>
+
+  <p style="margin-bottom:0">Social Safety Nets in Africa (with Colin Andrews and Laura Ralston)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum5&quot;)">summary</button> 
+    | <a href="/files/RAH_safety.pdf" target="_blank">paper</a> 
+   | <a href="/files/AHR_safety.pdf" target="_blank">report</a> 
+  ]</div>
+  <div class="popup" id="sum5" style="display:none">We take stock of the evidence on social safety net programs in Sub-Saharan Africa, and we discuss implications for equity, resilience, and opportunity.</div>
   <br>
    
   </section>
