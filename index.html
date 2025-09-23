@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5", "sum6"];
+  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5", "sum6", "sum7"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -211,7 +211,17 @@ function button(id) {
   <br>
    
   <h3>Surveys</h3>
-   
+
+  <p style="margin-bottom:0">Deforestation (with Francisco Costa, Heitor Pellegrina, and Eduardo Souza-Rodrigues)</p>
+  <p style="margin-bottom:0; color:#666"><em>VoxDevLit 2025</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum7&quot;)">summary</button> 
+    | <a href="/files/CHPS_forest.pdf" target="_blank">paper</a> 
+    | <a href="/files/CHPS_slides.pdf" target="_blank">slides</a> 
+  ]</div>
+  <div class="popup" id="sum7" style="display:none">Deforestation is a major source of global carbon emissions, but efforts to curb deforestation rates have faced significant challenges. We synthesize recent economic research, and we highlight policy implications and new directions for future research.</div>
+  <br>
+  
   <p style="margin-bottom:0">Coastal Investment in the Age of Climate Change</p>
   <p style="margin-bottom:0; color:#666"><em>Nature Climate Change 2025</em></p>
   <div class="buttonbar">[ 
