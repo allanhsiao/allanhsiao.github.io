@@ -4,7 +4,7 @@
 <script>
 function button(id) {
   var x = document.getElementById(id);
-  var ids = ["paper1", "paper2", "paper3", "paper4", "paper5", "work1", "work2", "work3", "work4", "work5", "data1", "data2", "survey1", "survey2", "survey3", "survey4", "survey5"];
+  var ids = ["paper1", "paper2", "paper3", "paper4", "paper5", "work1", "work2", "work3", "work4", "work5", "work6", "data1", "data2", "survey1", "survey2", "survey3", "survey4", "survey5"];
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
@@ -98,6 +98,14 @@ function button(id) {
   
   <h3>Working papers</h3>
 
+  <p style="margin-bottom:0">Critical Minerals, Geopolitics, and the Green Transition (with Tomás Domínguez-Iino and Jonathan Elliott)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;work6&quot;)">abstract</button>
+    | <a href="/files/DEH_minerals.pdf" target="_blank">paper</a>
+  ]</div>
+  <div class="popup" id="work6" style="display:none">The green energy transition will be powered by the mining and processing of lithium, nickel, and cobalt, which are critical for the production of advanced batteries. These minerals are concentrated geographically but traded globally. We study the geopolitical implications of active policy intervention in key mining countries, and we discuss consequences for green technology adoption worldwide. We show that the joint use of critical minerals in advanced batteries generates complementarity, which shapes both producer welfare and battery adoption. We quantify supply chain vulnerability, policy spillovers across mineral markets, and the potential for mineral cartels.</div>
+  <br>
+   
   <p style="margin-bottom:0">Sea Level Rise and Urban Adaptation in Jakarta</p>
   <p style="margin-bottom:0; color:#666"><em>Revise and resubmit, Econometrica</em></p>
   <div class="buttonbar">[ 
