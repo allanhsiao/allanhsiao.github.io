@@ -1,31 +1,12 @@
 <!DOCTYPE html>
-<html>
- 
-<script>
-function button(id) {
-  var x = document.getElementById(id);
-  var ids = ["paper1", "paper2", "paper3", "paper4", "paper5", "work1", "work2", "work3", "work4", "work5", "work6", "data1", "data2", "survey1", "survey2", "survey3", "survey4", "survey5"];
-  for(var i = 0; i < ids.length; i++) {
-    var item = ids[i];
-    if (item != id) {
-      document.getElementById(item).style.display = "none";
-    } else {
-      if (x.style.display === "none") {
-        x.style.display = "block"
-      } else {
-        x.style.display = "none";
-      }
-    }
-  }	
-}
-</script> 
-  
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
-  
+  <link rel="stylesheet" href="style.css">
+
   <!-- Primary Meta Tags -->
   <title>Allan Hsiao</title>
   <meta name="title" content="Allan Hsiao">
@@ -68,7 +49,7 @@ function button(id) {
   <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png" />
   <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png" />
   <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png" />
-   
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NK1T1X1ECX"></script>
   <script>
@@ -83,192 +64,152 @@ function button(id) {
 <body>
   <div class="wrapper">
   <header>
-    <img src="/files/Hsiao.jpg" width="230"/>
+    <img src="files/Hsiao.jpg" width="230"/>
     <p></p>
     <h1>Allan Hsiao</h1>
-    <p><strong>Assistant Professor</strong>
-    <br><strong>Department of Economics</strong>
-    <br><strong>Stanford University</strong>
+    <p>Assistant Professor
+    <br>Department of Economics
+    <br>Stanford University
     </p>
-    <a href="mailto:ajhsiao@stanford.edu" style="color:#222">ajhsiao@stanford.edu</a>
+    <a href="mailto:ajhsiao@stanford.edu" style="color:#444">ajhsiao@stanford.edu</a>
   </header>
-    
-  <section>  
-  <p>I work on questions in environmental and development economics using tools from empirical industrial organization and international trade. [ <a href="/files/Hsiao_CV.pdf" target="_blank">CV</a> ]</p>
-  
+
+  <section>
+  <p>
+    I work on questions in environmental and development economics using tools from empirical industrial organization and international trade.
+    (<a href="files/Hsiao_CV.pdf" target="_blank" class="tag">CV</a>)
+  </p>
+
   <h3>Working papers</h3>
 
-  <p style="margin-bottom:0">Critical Minerals, Geopolitics, and the Green Transition (with Tomás Domínguez-Iino and Jonathan Elliott)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work6&quot;)">abstract</button>
-    | <a href="/files/DEH_minerals.pdf" target="_blank">paper</a>
-  ]</div>
-  <div class="popup" id="work6" style="display:none">The green energy transition will be powered by the mining and processing of lithium, nickel, and cobalt, which are critical for the production of advanced batteries. These minerals are concentrated geographically but traded globally. We study the geopolitical implications of active policy intervention in key mining countries, and we discuss consequences for green technology adoption worldwide. We show that the joint use of critical minerals in advanced batteries generates complementarity, which shapes both producer welfare and battery adoption. We quantify supply chain vulnerability, policy spillovers across mineral markets, and the potential for mineral cartels.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Sea Level Rise and Urban Adaptation in Jakarta</p>
-  <p style="margin-bottom:0; color:#666"><em>Revise and resubmit, Econometrica</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work5&quot;)">abstract</button>
-    | <a href="/files/Hsiao_jakarta.pdf" target="_blank">paper</a>
-  ]</div>
-  <div class="popup" id="work5" style="display:none">Sea level rise poses an existential threat to Jakarta, which faces frequent and worsening flooding. The government has responded with a proposed sea wall. In this setting, I study how government intervention complicates long-run adaptation by creating coastal moral hazard. I quantify this force with a dynamic spatial model of urban development and flooding. I show that moral hazard generates coastal lock-in by delaying inland migration, and I evaluate policies for reducing this friction.</div>
-  <br>
+  <p>
+    <a href="files/DEH_minerals.pdf" target="_blank">
+      Critical Minerals, Geopolitics, and the Green Transition
+    </a>
+    <br>with Tomás Domínguez-Iino and Jonathan Elliott
+  </p>
 
-  <p style="margin-bottom:0">Climate Change, Deforestation, and the Expansion of the Global Agricultural Frontier (with Jacob Moscona, Benjamin Olken, and Karthik Sastry)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work4&quot;)">abstract</button>
-    | <a href="/files/HMOS_forest.pdf" target="_blank">paper</a>  
-  ]</div>
-  <div class="popup" id="work4" style="display:none">We study how global warming affects deforestation and agricultural land use. Using high-resolution global satellite data from 2001 to 2019, we show that extreme heat causes persistent forest loss on the world's agricultural frontier. This effect is most pronounced in areas growing temperature-sensitive crops and is driven by cropland expansion. In Brazilian agricultural census data, we confirm these results and identify a mechanism whereby heat reduces yields and raises local agricultural prices. Our findings challenge the view that reallocation will soften the environmental consequences of climate change, suggesting instead that farmers double down and expand cropland locally when productivity falls.</div>
-  <br>
+  <p>
+    <a href="files/Hsiao_jakarta.pdf" target="_blank">
+      Sea Level Rise and Urban Adaptation in Jakarta
+    </a>
+    <br><em>Revise and resubmit, Econometrica</em>
+  </p>
 
-  <p style="margin-bottom:0">The Global Effects of Carbon Border Adjustment Mechanisms (with Kimberly Clausing, Jonathan Colmer, and Catherine Wolfram)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work3&quot;)">abstract</button>
-    | <a href="/files/CCHW_cbam.pdf" target="_blank">paper</a>
-  ]</div>
-  <div class="popup" id="work3" style="display:none">Climate change poses a collective action problem: individual countries bear the costs of carbon regulation, while the benefits are shared globally. Carbon border adjustment mechanisms (CBAMs), which are currently being implemented by the EU and UK, aim to realign incentives by improving domestic competitiveness, reducing emissions leakage, and encouraging other countries to tax carbon. However, policy discussions also note that CBAMs could unfairly disadvantage lower-income trading partners. We evaluate these issues with a quantitative trade model and plant-level data for two key industries – steel and aluminum – which are the focus of early CBAM implementation. Together, they account for 14% of global emissions. We show that CBAMs can facilitate collective climate action, while largely avoiding disproportionate burdens on lower-income countries.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Educational Investment in Spatial Equilibrium: Evidence from Indonesia</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work2&quot;)">abstract</button> 
-    | <a href="/files/Hsiao_schools.pdf" target="_blank">paper</a> 
-  ]</div>
-  <div class="popup" id="work2" style="display:none">This paper argues that mobility across space greatly amplifies the returns to education. Students in isolated rural labor markets have limited job opportunities and thus limited wage gains from additional years of schooling. Access to urban labor markets provides more job opportunities and thus larger gains. I capture this mechanism with a spatial equilibrium model in which students invest in education, then migrate for employment after graduation. I estimate the model with quasi-experimental variation from Indonesia's <em>Sekolah Dasar Inpres</em> program, one of the largest school construction programs in history. I find that mobility accounts for roughly half of the aggregate gains from the program. Improving mobility would increase these gains, but also widen regional inequality.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;work1&quot;)">abstract</button> 
-    | <a href="/files/Hsiao_hospitals.pdf" target="_blank">paper</a>
-  ]</div>
-  <div class="popup" id="work1" style="display:none">Does electoral accountability discipline public spending? After the fall of Suharto, Indonesia held local elections for the first time in decades. I use a dynamic discrete choice framework to study how democratization affected the spatial allocation of public investment in healthcare infrastructure. On one hand, democratization limits distortions from Suharto-era biases toward certain areas, such as those within the patronage network. On the other hand, spillover effects are less internalized as districts become more focused on their own constituents. The first effect dominates, and democratization decreases misallocation overall.</div>
-  <br>
+  <p>
+    <a href="files/HMOS_forest.pdf" target="_blank">
+      Climate Change, Deforestation, and the Expansion of the Global Agricultural Frontier
+    </a>
+    <br>with Jacob Moscona, Benjamin Olken, and Karthik Sastry
+  </p>
+
+  <p>
+    <a href="files/CCHW_cbam.pdf" target="_blank">
+      The Global Effects of Carbon Border Adjustment Mechanisms
+    </a>
+    <br>with Kimberly Clausing, Jonathan Colmer, and Catherine Wolfram
+  </p>
+
+  <p>
+    <a href="files/Hsiao_schools.pdf" target="_blank">
+      Educational Investment in Spatial Equilibrium: Evidence from Indonesia
+    </a>
+  </p>
+
+  <p>
+    <a href="files/Hsiao_hospitals.pdf" target="_blank">
+      Democratization and Infrastructure Investment: Evidence from Healthcare in Indonesia
+    </a>
+  </p>
 
   <h3>Papers</h3>
 
-  <p style="margin-bottom:0">Food Policy in a Warming World (with Jacob Moscona and Karthik Sastry)</p>
-  <p style="margin-bottom:0; color:#666"><em>Econometrica 2026</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;paper5&quot;)">abstract</button>
-    | <a href="/files/HMS_foodpolicy.pdf" target="_blank">paper</a> 
-    | <a href="https://doi.org/10.5281/zenodo.17903904" target="_blank">code</a> 
-    | <a href="https://www.youtube.com/watch?v=dWA3hhAibag" target="_blank">video</a>
-  ]</div>
-  <div class="popup" id="paper5" style="display:none">This paper studies how governments intervene in agricultural markets to reshape the economic consequences of climate extremes. We construct a global dataset of agricultural policies and extreme heat exposure by country and crop since 1980. Extreme heat shocks to domestic production lead to policies that assist consumers by lowering domestic food prices. This effect is persistent, primarily implemented via border policies, and stronger during election years. Shocks to foreign production induce the opposite response: policies that assist producers by raising prices. These findings can be rationalized by a model in which governments use agricultural policy to redistribute among domestic interest groups. Our estimates imply that policy responses shield domestic consumers, while exacerbating losses for domestic producers and foreign consumers. Policy responses have regressive consequences globally, disproportionately harming poor and heat-exposed countries.</div>
-  <br>
+  <p>
+    <a href="files/HMS_foodpolicy.pdf" target="_blank">
+      Food Policy in a Warming World
+    </a>
+    (<a href="https://doi.org/10.5281/zenodo.17903904" target="_blank" class="tag">code</a>)
+    <br>with Jacob Moscona and Karthik Sastry
+    <br><em>Econometrica 2026</em>
+  </p>
 
-  <p style="margin-bottom:0">Coordination and Commitment in International Climate Action: Evidence from Palm Oil</p>
-  <p style="margin-bottom:0; color:#666"><em>Econometrica 2026</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;paper4&quot;)">abstract</button> 
-    | <a href="/files/Hsiao_palmoil.pdf" target="_blank">paper</a> 
-    | <a href="https://doi.org/10.5281/zenodo.17430585" target="_blank">code</a> 
-    | <a href="https://www.youtube.com/watch?v=IBGGsSG52gc" target="_blank">video</a>
-  ]</div> 
-  <div class="popup" id="paper4" style="display:none">Weak environmental regulation has global consequences. When domestic regulation fails, the international community can target emitters with trade policy. I develop a dynamic empirical framework for evaluating trade policy as a substitute for domestic regulation, and I apply the framework to the market for palm oil, a major driver of deforestation and global CO₂ emissions. Relative to business as usual, a domestic production tax of 50% reduces CO₂ emissions by 7.4 Gt from 1988 to 2016, amounting to 0.26 Gt annually. Coordinated, committed import tariffs of similar magnitude reduce emissions by 5.4 Gt over the same period. The cost of these import tariffs is only $15 per ton of CO₂, even accounting for compensating transfers that recognize welfare losses for producing countries. Without coordination and commitment, import tariffs have more limited effects. Alternative policies include domestic export taxes, which are fiscally appealing independent of emission concerns, and a carbon border adjustment mechanism, which encourages domestic regulation.</div>
-  <br>
-  
-  <p style="margin-bottom:0">Climate Crisis and Policy Inaction in Indonesia (with Nicholas Kuipers)</p>
-  <p style="margin-bottom:0; color:#666"><em>American Journal of Political Science 2025</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;paper3&quot;)">abstract</button>
-    | <a href="/files/HK_inaction.pdf" target="_blank">paper</a> 
-    | <a href="https://doi.org/10.7910/DVN/OTTHXV" target="_blank">code</a> 
-  ]</div>
-  <div class="popup" id="paper3" style="display:none">We surveyed voters and politicians in advance of the 2024 Indonesian election to measure preferences for environmental policy. We find that politicians underestimate voter concerns. We conducted an informational experiment with politicians to correct these misperceptions, and we document evidence of learning but no greater support for policy action. We explore three explanations for why voter preferences do not translate into policy. First, politicians only consider acting when their initial misperceptions are particularly large. Second, elite capture prevents politicians from implementing environmental protection. Third, voters prioritize progress in other domains. Our results underscore the multiplicity of challenges facing climate action.</div>
-  <br>
-  
-  <p style="margin-bottom:0">Sea Level Rise and Urban Infrastructure</p>
-  <p style="margin-bottom:0; color:#666"><em>AEA Papers and Proceedings 2025</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;paper2&quot;)">abstract</button> 
-    | <a href="/files/Hsiao_suds.pdf" target="_blank">paper</a> 
-    | <a href="/files/Hsiao_suds.zip" target="_blank">code</a> 
-  ]</div> 
-  <div class="popup" id="paper2" style="display:none">How exposed are cities to the threat of sea level rise? I quantify this exposure worldwide with a focus on urban infrastructure. I document three facts. First, Asian cities are highly exposed. Second, poorer cities and neighborhoods are less exposed. Third, exposure accelerates as sea level rise passes 1.5 meters.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Sea Level Rise and Urban Inequality</p>
-  <p style="margin-bottom:0; color:#666"><em>AEA Papers and Proceedings 2024</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;paper1&quot;)">abstract</button> 
-    | <a href="/files/Hsiao_inequality.pdf" target="_blank">paper</a> 
-    | <a href="/files/Hsiao_inequality.zip" target="_blank">code</a> 
-  ]</div> 
-  <div class="popup" id="paper1" style="display:none">Sea level rise threatens coastal cities around the world. Will it exacerbate inequality in these already unequal places? The rich may adapt by moving to higher ground, bidding up prices and pushing the poor elsewhere. I study the distributional consequences of this spatial sorting with a simple quantitative model and granular data from Jakarta, a flood-prone megacity of 32 million. I find that sea level rise will double inequality in flood exposure.</div>
-  <br>
+  <p>
+    <a href="files/Hsiao_palmoil.pdf" target="_blank">
+      Coordination and Commitment in International Climate Action: Evidence from Palm Oil
+    </a>
+    (<a href="https://doi.org/10.5281/zenodo.17430585" target="_blank" class="tag">code</a>)
+    <br><em>Econometrica 2026</em>
+  </p>
+
+  <p>
+    <a href="files/HK_inaction.pdf" target="_blank">
+      Climate Crisis and Policy Inaction in Indonesia
+    </a>
+    (<a href="https://doi.org/10.7910/DVN/OTTHXV" target="_blank" class="tag">code</a>)
+    <br>with Nicholas Kuipers
+    <br><em>American Journal of Political Science 2025</em>
+  </p>
+
+  <p>
+    <a href="files/Hsiao_suds.pdf" target="_blank">
+      Sea Level Rise and Urban Infrastructure
+    </a>
+    (<a href="files/Hsiao_suds.zip" target="_blank" class="tag">code</a>)
+    <br><em>AEA Papers and Proceedings 2025</em>
+  </p>
+
+  <p>
+    <a href="files/Hsiao_inequality.pdf" target="_blank">
+      Sea Level Rise and Urban Inequality
+    </a>
+    (<a href="files/Hsiao_inequality.zip" target="_blank" class="tag">code</a>)
+    <br><em>AEA Papers and Proceedings 2024</em>
+  </p>
 
   <h3>Data</h3>
 
-  <p style="margin-bottom:0">Sea Level Rise and Urban Infrastructure Data Set (SUDS)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;data2&quot;)">summary</button> 
-    | <a href="/files/suds/data.zip" target="_blank">data</a> 
-    | <a href="/files/suds/code.zip" target="_blank">code</a>
-  ]</div>
-  <div class="popup" id="data2" style="display:none">I measure the exposure of urban infrastructure to sea level rise of up to 5 meters. These data have global coverage and include 11,422 urban clusters with a total population of 3.7 billion.</div>
-  <br>
-  
-  <p style="margin-bottom:0">Historical Urban Development in Jakarta (1887-1945)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;data1&quot;)">summary</button> 
-    | <a href="/files/batavia/data.zip" target="_blank">data</a> 
-  ]</div>
-  <div class="popup" id="data1" style="display:none">I digitize Dutch colonial maps of Jakarta to measure the evolution of built-up land from 1887 to 1945.</div>
-  <br>
-   
+  <p>
+    <a href="files/suds/data.zip" target="_blank">
+      SUDS: Sea Level Rise and Urban Infrastructure Data Set
+    </a>
+    (<a href="files/suds/code.zip" target="_blank" class="tag">code</a>)
+  </p>
+
+  <p>
+    <a href="files/batavia/data.zip" target="_blank">
+      Historical Urban Development in Jakarta, 1887-1945
+    </a>
+  </p>
+
   <h3>Surveys</h3>
 
-  <p style="margin-bottom:0">Deforestation (with Francisco Costa, Heitor Pellegrina, and Eduardo Souza-Rodrigues)</p>
-  <p style="margin-bottom:0; color:#666"><em>VoxDevLit 2025</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;survey5&quot;)">summary</button> 
-    | <a href="/files/CHPS_forest.pdf" target="_blank">paper</a> 
-    | <a href="/files/CHPS_slides.pdf" target="_blank">slides</a> 
-  ]</div>
-  <div class="popup" id="survey5" style="display:none">Deforestation is a major source of global carbon emissions, but efforts to curb deforestation rates have faced significant challenges. We synthesize recent economic research, and we highlight policy implications and new directions for future research.</div>
-  <br>
-  
-  <p style="margin-bottom:0">Coastal Investment in the Age of Climate Change</p>
-  <p style="margin-bottom:0; color:#666"><em>Nature Climate Change 2025</em></p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;survey4&quot;)">summary</button> 
-    | <a href="/files/Hsiao_coast.pdf" target="_blank">paper</a> 
-  ]</div>
-  <div class="popup" id="survey4" style="display:none">I discuss the findings of Balboni (AER 2025) and their implications for coastal investment worldwide.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Sea Level Rise (with Clare Balboni)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;survey3&quot;)">summary</button> 
-    | <a href="/files/slides_sea.pdf" target="_blank">slides</a>
-  ]</div>
-  <div class="popup" id="survey3" style="display:none">Sea level rise threatens one billion people by 2050. We survey the literature on coastal damages, adaptation, and policy.</div>
-  <br>
-   
-  <p style="margin-bottom:0">Tropical Deforestation (with Robin Burgess)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;survey2&quot;)">summary</button> 
-    | <a href="/files/slides_forest.pdf" target="_blank">slides</a> 
-  ]</div>
-  <div class="popup" id="survey2" style="display:none">Tropical deforestation is a major driver of global emissions. We survey the literature and discuss next steps for researchers and policymakers.</div>
-  <br>
+  <p>
+    <a href="files/CHPS_forest.pdf" target="_blank">
+      Deforestation
+    </a>
+    (<a href="files/CHPS_slides.pdf" target="_blank" class="tag">slides</a>)
+    <br>with Francisco Costa, Heitor Pellegrina, and Eduardo Souza-Rodrigues
+    <br><em>VoxDevLit 2025</em>
+  </p>
 
-  <p style="margin-bottom:0">Social Safety Nets in Africa (with Colin Andrews and Laura Ralston)</p>
-  <div class="buttonbar">[ 
-    <button class="button" onclick="button(&quot;survey1&quot;)">summary</button> 
-    | <a href="/files/RAH_safety.pdf" target="_blank">paper</a> 
-    | <a href="/files/AHR_safety.pdf" target="_blank">report</a> 
-  ]</div>
-  <div class="popup" id="survey1" style="display:none">We take stock of the evidence on social safety net programs in Sub-Saharan Africa, and we discuss implications for equity, resilience, and opportunity.</div>
-  <br>
-   
+  <p>
+    <a href="files/Hsiao_coast.pdf" target="_blank">
+      Coastal Investment in the Age of Climate Change
+    </a>
+    <br><em>Nature Climate Change 2025</em>
+  </p>
+
+  <p style="margin-bottom:0">
+    <a href="files/RAH_safety.pdf" target="_blank">
+      Social Safety Nets in Africa
+    </a>
+    (<a href="files/AHR_safety.pdf" target="_blank" class="tag">report</a>)
+    <br>with Colin Andrews and Laura Ralston
+  </p>
+
   </section>
   </div>
   <script src="/assets/js/scale.fix.js"></script>
 </body>
-  
+
 </html>
