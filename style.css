@@ -20,7 +20,7 @@ p:not(:first-of-type){color:#444}
 .tag::before{content:"["; margin-right:2px; margin-left:2px}
 .tag::after{content:"]"; margin-left:2px}
 
-a{color:#0b4fc4; text-decoration:none}
+a{color:#0b3f98; text-decoration:none}
 a:hover{text-decoration:underline}
 
 @media print, screen and (max-width:960px){
