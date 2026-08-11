@@ -5,22 +5,24 @@ section{width:540px; float:right; padding-bottom:50px}
 img{max-width:100%}
 h1,h2,h3,h4,h5,h6{margin:0 0 20px}
 h1,h2,h3{line-height:1.1}
-h1{color:#000; font-size:28px}
-h2,h3,h4,h5,h6{color:#222}
+h1{color:#222; font-size:28px}
+h2,h3,h4,h5,h6{color:#333}
 body{
   background-color:#fff;
   padding:50px;
   font:14px/1.5 Helvetica, Arial, sans-serif;
   font-weight:400
 }
+
 small{font-size:11px}
 
-p{color:#222; margin:0 0 20px}
-p:not(:first-of-type){color:#444}
+p{color:#333; margin:0 0 20px}
+p:not(:first-of-type){color:#555}
+.tag{color:#267CB9}
 .tag::before{content:"["; margin-right:2px; margin-left:2px}
 .tag::after{content:"]"; margin-left:2px}
 
-a{color:#0b3f98; text-decoration:none}
+a{color:#267CB9; text-decoration:none}
 a:hover{text-decoration:underline}
 
 @media print, screen and (max-width:960px){
